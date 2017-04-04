@@ -1,0 +1,65 @@
+body{
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
+section{
+  background:inherit; display: flex; flex-direction: row; padding:1%;margin-top: 50px;
+  justify-content:space-around;color:black; text-align:center;text-decoration: none;
+
+}
+
+.quick{
+width:48%; background-color:white;overflow:hidden; padding:1%;
+}
+
+.query{
+ width:48%; background-color:white;overflow: hidden; padding:1%;
+}
+.form input{
+  width:90%;
+  border-radius: 5px;
+  background:white;
+  padding:1%;
+}
+
+.sandy{
+  display:flex; flex-direction:row; justify-content:space-around;margin-left: -15%;
+}
+
+.form textarea{
+  width:90%;
+  height:100%;
+  border-radius: 5px;
+  padding:1%;
+  background:white;
+}
+
+.form button{
+  width:50px;
+  border-radius: 5px;
+  background:lightblue;
+}
+
+.form button:hover{
+  background:green;
+}
+
+.mapbox{
+  width: 80%;
+}
+
+footer{
+  background:inherit; display: flex; flex-direction: row; padding:1%;margin-top: inherit;
+  justify-content:space-around;color:black; text-align:center;text-decoration: none;
+  margin-top: 15%;
+}
+
+
+@media all and (max-width:1000px){
+header,section, footer, map,
+.menubar ul{
+    flex-direction: column;
+  }
+footer.cblock{
+    width=96%;
+  }
+}
