@@ -1,0 +1,163 @@
+body{
+  height:1400px;
+}
+
+header{
+  margin-top:4px;
+}
+
+.image{
+    position: fixed;
+    width: 100%;
+}
+
+.img-1 {
+  width: 100%;
+  height: 90%;
+  margin-left: -8px;
+  border-radius: 15%;
+  margin-top: -40px;
+}
+
+.content1{
+  top: 110px;
+  height: 600px;
+  width:90%;
+  text-align: center;
+  display:flex;
+  flex-direction:row; justify-content: space-around;
+  margin-left:auto;
+  margin-right: auto;
+  z-index: 9;
+  position: relative;
+  margin-left:auto;
+  margin-right: auto;
+}
+.cvcontent{
+  width:49.5%;
+  height: 550px;
+  background-color: white;
+  opacity:0.75;
+  border-radius:50px;
+}
+
+.education{
+  width: 49.5%;
+  height: 550px;
+  background-color: white;
+  opacity:0.75;
+  border-radius:50px;
+  text-align: center;
+}
+
+.e1,.e2,.e3 {
+  width: 80px;
+  height:80px;
+  background: radial-gradient(circle at 100px 100px, skyblue, #000);
+  color:white;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius:50px;
+}
+.e1 h4,.e2 h4,.e3 h4{
+padding-top: 30%;
+}
+
+.content2{
+  top: 120px;
+  height: 700px;
+  width:90%;
+  text-align: center;
+  display:flex;
+  flex-direction:row; justify-content: space-around;
+  margin-left:auto;
+  margin-right: auto;
+  z-index: 9;
+  position: relative;
+}
+
+.current-cource{
+  width: 49.5%;
+  height: 600px;
+  background-color: white;
+  opacity:0.75;
+  border-radius:50px;
+}
+
+.current-cource ul{
+list-style: none;
+display:flex;
+flex-direction:column;
+}
+
+.current-cource ul li{
+
+  width: 90%;
+  background-color: black;
+  color:white;
+  padding: 2.5%
+}
+
+
+.Skills{
+  width: 49.5%;
+  height: 600px;
+  background-color: white;
+  opacity:0.75;
+  border-radius:50px;
+  display:flex;
+  text-align: center;
+  display:flex;
+  flex-direction:column; justify-content: space-around;
+}
+
+
+.s1, .s2, .s3 {
+  width:120px;
+  height:120px;
+  background: radial-gradient(circle at 100px 100px, brown, #000);
+  text-align:center;
+  border-radius: 50%;
+  margin-left:auto;
+  margin-right: auto;
+
+
+}
+
+.s11, .s21, .s31 {
+  width:100px;
+  height:100px;
+  background: radial-gradient(circle at 100px 100px, skyblue, #000);
+  color:white;
+  text-align:center;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -6px;
+ z-index: 9;
+}
+.s11 >p, .s21 >p, .s31 >p{
+  padding-top: 40px;
+}
+.white{
+  height:28px;width:300px;background-color:black;
+  margin-left: -80px;
+  margin-top: 10%;
+}
+.html{
+  height:28px;width:80%;background-color:grey;
+  z-index: 11;
+}
+.java{
+  height:28px;width:20%;background-color:grey;
+  z-index: 11;
+}
+.python{
+  height:28px;width:30%;background-color:grey;
+  z-index: 11;
+}
+
+footer{
+top: -650px;
+margin-bottom: 50px;
+}

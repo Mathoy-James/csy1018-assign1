@@ -1,0 +1,26 @@
+.img-1{
+    position: fixed;
+    width: 100%;
+    top:14%;
+}
+.image {
+  width: 100%;
+  margin-left: -8px;
+  border-radius: 15%;
+}
+
+section{
+  z-index: 9;
+  position: relative;
+  width: 40%;
+  height: 400px;
+  background-color: white;
+  top: 700px;
+  text-align: center;
+  padding-top: 100px;
+  padding-left:8px;
+  opacity:0.75;
+  border-radius:50px;
+  margin-left:auto;
+  margin-right: auto;
+}
