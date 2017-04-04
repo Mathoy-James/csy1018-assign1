@@ -1,105 +1,109 @@
-<!DOCTYPE html>
+
 <html>
-  <head>
-    <title>S.S contact</title>
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/index.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title> Portfolio </title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+  </header>
 
-  <!-- start of navigation bar -->
- <div class="navigation">
-     <ul>
-       <li><a href="index.html"><div class="logo">SS</div></a></li>
-       <li><a href="About">About</a></li>
-       <li><a href="Portfolio">Portfolio</a></li>
-       <li><a href="Contact.html">Contact</a></li>
-     </ul>
- </div>
- <body>
+  <!-- First Parallax Image with Logo Text -->
+  <div class="image">
+    <img class="img"
+         src="images/sun.jpg"
+         alt="picture of a sun with a similar proverb">
+  </div>
+
+  <!--clickbutton-->
+  <a href="contact.html"> <button id="myBtn"><img class="top" src="images/top.png"></button></a>
 
 
- <section>
-    <div class="query">
-      <h2>CONTACT ME</h2>
-      <form class="form" action="" method="post" >
-
-              <input type="text" name="name" placeholder="Your Name.." tabindex="1" required autofocus></input><br></br>
-
-              <div class="sandy">
-                <div class="Gender">
-                  <label  required autofocus>Gender</label>
-                  <select name="Country">
-                    <option type="radio" name="gender" value"male">Male</option>
-                    <option type="radio" name="gender" value"female">Female</option>
-                  </select>
-                </div>
-
-              <div class="Country">
-                <label required autofocus>Country</label>
-                <select name="Country">
-                <option value="Nepal">Nepal</option>
-                <option value="UK">UK</option>
-                <option value="USA">USA</option>
-                <option value="China">China</option>
-                </select><br></br>
-            </div>
-          </div>
-
-              <input type="email" name="email" placeholder="Your Email Address" tabindex="1" required autofocus ></input><br></br>
-
-              <textarea type="text"  name="Comments" placeholder="Your Comments" tabindex="1" required autofocus></textarea><br></br>
-
-              <button type="submit" name="submit" value="Send email" tabindex="1" required autofocus><i>send email</i></button><br></br>
-      </form>
-    </div>
-
-    <div class="quick">
-      <h3>QUICK ID</h3>
-      <p>
-      Phone     +977 9816161489<br/>
-      Email     <a href="Contact.html"> sandeepstha69@gmail.com </a><br/>
-      Address   Jorpati-5, Kathmandu, Nepal<br/>
-      </p>
-    </div>
-</section>
-
-<div class="mapbox">
- <h3>You can find me here.</h3>
-  <div name="map" class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3531.9354606592005!2d85.38194482367082!3d27.719278897394037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8e1a147cb4dc56c!2sNayaa+Aayaam+Multi-Disciplinary+Institute+(NAMI)!5e0!3m2!1sen!2snp!4v1489596008486" width="125%" height="500px" frameborder="0" style="border:0" allowfullscreen ></iframe>
+  <!--navigation bar goes here-->
+<div class="dropdown">
+    <botton class="botton"><span >&#9776;</span></botton>
+  <div class="navigation">
+      <ul>
+        <li><a href="index.html"><i class="material-icons md-home" >home</i></a></li>
+        <br><br>
+        <li><a href="bio.html"><i class="material-icons md-bio">bio</i></a></li>
+        <br><br>
+        <li><a href="cv.html"><i class="material-icons md-cv">cv</i></a></li>
+        <br><br>
+        <li><a href="contact.html"><i class="material-icons md-email">email</i></a></li>
+      </ul>
   </div>
 </div>
 
 
+
+
+
+<section>
+   <div class="query">
+     <h2>CONTACT ME</h2>
+     <form class="form" action="" method="post" >
+
+             <input type="text" name="name" placeholder="Your Name.." tabindex="1" required autofocus></input><br><br>
+
+             <div class="sandy">
+               <div class="Gender">
+                 <label  required autofocus>Gender</label>
+                 <select name="Country">
+                   <option type="radio" name="gender" value"male">Male</option>
+                   <option type="radio" name="gender" value"female">Female</option>
+                 </select>
+               </div>
+
+             <div class="Country">
+               <label required autofocus>Country</label>
+               <select name="Country">
+               <option value="Nepal">Nepal</option>
+               <option value="UK">UK</option>
+               <option value="USA">USA</option>
+               <option value="China">China</option>
+             </select>
+           </div>
+         </div>
+
+             <input type="email" name="email" placeholder="Your Email Address" tabindex="1" required autofocus ></input><br><br>
+
+             <textarea type="text"  name="Comments" placeholder="Your Comments" tabindex="1" required autofocus></textarea><br><br>
+
+             <button type="submit" name="submit" value="Send email" tabindex="1" required autofocus><i>send email</i></button><br><br>
+     </form>
+   </div>
+
+   <div class="quick">
+     <h3>QUICK ID</h3>
+     <p>
+     Call <i class="material-icons">call</i>      +977 9816161489<br><br><br>
+     Email <i class="material-icons">email</i>     <a href="Contact.html"> sandeepstha69@gmail.com </a><br><br><br>
+     Address <i class="material-icons">location_on</i>   Jorpati-5, Kathmandu, Nepal<br><br><br>
+     </p>
+   </div>
+</section>
+
+<div class="mapbox">
+<h3>You can find me here.</h3>
+ <div name="map" class="map">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7063.893587705281!2d85.386898!3d27.718929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8e1a147cb4dc56c!2sNayaa+Aayaam+Multi-Disciplinary+Institute+(NAMI)!5e0!3m2!1sen!2snp!4v1490942960418" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+</div>
+
+
 <!--start of footer-->
-  <footer>
-    <div class="cblock">
-      <h3>Copyrigt block</h3>
-      <p>
-        Copyright @2017.<br/>
-        All rights reserved.<br/>
-        Developed By:<br/><a href="index.html">
-          Sandeep Shrestha</a>
-      </p>
-    </div>
-
-    <div class="QUICK ID">
-      <h3>QUICK ID</h3>
-      <p>
-      Phone     +977 9816161489<br/>
-      Email     <a href="Contact.html"> sandeepstha69@gmail.com </a><br/>
-      Address   Jorpati-5, Kathmandu, Nepal<br/>
-
-      </p>
-    </div>
-
-    <div class="find-me">
-      <h3>You can find me here.</h3>
-      <div name="map" class="mapbox">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3531.9354606592005!2d85.38194482367082!3d27.719278897394037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb8e1a147cb4dc56c!2sNayaa+Aayaam+Multi-Disciplinary+Institute+(NAMI)!5e0!3m2!1sen!2snp!4v1489596008486" width="200" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
-    </div>
+ <footer>
+   <div class="cblock">
+     <p>
+       Copyright @2017.All rights reserved.<br/>
+       Developed By:<br/><a href="index.html">Sandeep Shrestha</a>
+     </p>
+   </div>
 </footer><!--end of footer-->
 </body>
 </html>
