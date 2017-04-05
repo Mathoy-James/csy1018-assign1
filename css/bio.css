@@ -1,21 +1,13 @@
-.img-1{
-    position: fixed;
-    width: 100%;
-    top:14%;
-}
-.image {
-  width: 100%;
-  margin-left: -8px;
-  border-radius: 15%;
-}
+
 
 section{
   z-index: 9;
   position: relative;
-  width: 40%;
+  width: 88%;
   height: 400px;
   background-color: white;
-  top: 700px;
+  top: 10%;
+  font-size: 90px;
   text-align: center;
   padding-top: 100px;
   padding-left:8px;
@@ -23,4 +15,9 @@ section{
   border-radius:50px;
   margin-left:auto;
   margin-right: auto;
+}
+
+.biocontent {
+  text-align: center;
+  font-size:.3em;
 }

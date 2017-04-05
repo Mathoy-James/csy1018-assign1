@@ -51,8 +51,8 @@ header{
 }
 
 .e1,.e2,.e3 {
-  width: 80px;
-  height:80px;
+  width: 40px;
+  height:40px;
   background: radial-gradient(circle at 100px 100px, skyblue, #000);
   color:white;
   margin-left:auto;
@@ -61,6 +61,7 @@ header{
 }
 .e1 h4,.e2 h4,.e3 h4{
 padding-top: 30%;
+font-size:.7em;
 }
 
 .content2{
