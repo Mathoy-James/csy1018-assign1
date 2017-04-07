@@ -1,6 +1,7 @@
 body{
   background-color: black;
   height: 1300px;
+  font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -31,25 +32,27 @@ header{
   position:absolute;
   width:88%;
   height: 500px;
+  text-align: center;
   color: white;
+  font-family: 'Roboto', sans-serif;
   background-color: black;
   display:block;
-  opacity: 0.4;
+  opacity: 0.7;
   border-radius:50px;
  margin-left: 5%;
   margin-top: 8%;
   z-index:1;
 }
 .word-layer > h2 {
-  font-size: 200%;
+  font-size: 500%;
   font-family: monospace;
-  padding-left:5%;
+  padding-left:10%;
   margin-top: 10%;
 }
 .word-layer > p{
   font-size: 150%;
   font-family: monospace;
-  padding-left:50%
+  padding-left:80%
 }
 
 #myBtn {
@@ -86,7 +89,7 @@ color:white;
   background-color:white;
   width: 80px;
   height:600px;
-  left:1270px;
+  margin-left:1275px;
   margin-top: 5px;
   z-index: 10;
   opacity: 0.8;
@@ -104,7 +107,7 @@ color:white;
   cursor:pointer;
   color: black;
   border: none;
-  margin-left:96%;
+  margin-left:95%;
   z-index: 10;
 }
 
@@ -115,7 +118,6 @@ color:white;
 
 .dropdown:hover .navigation {
     display: block;
-
 }
 
 .dropdown:hover .botton {
@@ -128,25 +130,27 @@ color:white;
   list-style: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content:space-around;
   margin-top: 110px;
   font-size: 1.92em;
   margin-left: -30px;
-  text-align: center;
+  align-content: space-around;
   z-index:10;
 }
 
-.navigation > ul > li > a {
-  height:500px;
-}
 .navigation > ul > li > a > img{
     height:50px;
     weight:50px;
+    padding: 50%;
+    padding-left: 10%;
 }
 
 .navigation > ul > li > a > img:hover{
   background-color:grey;
   background-size:contain;
+}
+.navigation > ul > li > a > img:active{
+  background-color:green;
 }
 .material-icons.md-home {font-size: 28px;}
 .material-icons.md-bio {font-size: 28px;}
@@ -165,10 +169,9 @@ width: 88%;
 height: 400px;
 background-color: white;
 top: 710px;
-text-align: center;
 padding-top: 100px;
 padding-left:8px;
-opacity:0.75;
+opacity:0.6;
 border-radius:50px;
 margin-top: -4%;
 margin-left:auto;
@@ -179,16 +182,18 @@ margin-right: auto;
 width:300px;
 height: 300px;
 border-radius: 50%;
-background-color:  #607d8b;
- background: radial-gradient(circle at 100px 100px, skyblue, #000);
+font-size:40px;
+text-align: center;
+background: radial-gradient(circle at 100px 100px, skyblue, #000);
 
 }
 .nd-div{
 width:300px;
 height: 300px;
 border-radius: 50%;
-background-color:  #607d8b;
- background: radial-gradient(circle at 100px 100px, skyblue, #000);
+font-size:40px;
+text-align: center;
+background: radial-gradient(circle at 100px 100px, skyblue, #000);
 
 }
 
@@ -196,26 +201,77 @@ background-color:  #607d8b;
 width:300px;
 height: 300px;
 border-radius: 50%;
-background-color:  #607d8b;
- background: radial-gradient(circle at 100px 100px, skyblue, #000);
+font-size:40px;
+text-align: center;
+background: radial-gradient(circle at 100px 100px, skyblue, #000);
 
+}
+
+.st-div > button,{
+  top: 10%;
+}
+
+.st-div > button, .nd-div > button, .rd-div > button{
+  border-radius: 10px;
+  background-color:skyblue;
+  border: none;
+  padding:  5px;
+  color:white;
+  text-align: center;
+  font-size:0.5em;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.st-div > button:active, .nd-div > button:active, .rd-div > button:active{
+  background: green;
+}
+
+.st-div > button > a > span, .nd-div > button > a > span, .rd-div > button > a > span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.st-div > button > a > span:after, .nd-div > button > a > span:after, .rd-div > button > a > span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.st-div>button:hover span, .nd-div>button:hover span, .rd-div>button:hover span {
+  padding-right: 25px;
+}
+
+.st-div>button:hover span:after, .nd-div>button:hover span:after, .rd-div>button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 footer{
-  color:black;
+  position:relative;
+  opacity:0.7;
+  width:88%;
+  height: 15%;
+  margin-top: 750px;
+  background-color:black ;
+  color:white;
   text-align:center;
   text-decoration: none;
-  margin-top: 55%;
-  position: relative;
-  opacity:0.8;
-  width:88%;
-  height: 20%;
-  background-color: white;
   margin-left:auto;
   margin-right: auto;
   border-radius:20px;
+  z-index: 9;
 }
 
+.cblock{
+  padding: 8%;
+
+}
 
 /*social sites */
 .socialsites ul {
@@ -224,21 +280,14 @@ footer{
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
-  transition: 0.3s;
-  margin-left: 100px;
+  margin-left: 180px;
   margin-right: auto;
-  border-radius: 0 5px 5px 0;
   left:20%;
 }
 
-.socialsites > ul > li > a {
-
-
-}
-
 .socialsites img {
-    height:100px;
-    weight:100px;
+    height:50px;
+    weight:50px;
     font-size: 20px;
     color: white;
 
@@ -246,27 +295,30 @@ footer{
 
 .socialsites a:hover {
    opacity:0.7;
+   transition: 0.3s;
 }
 .Facebook img{
-  background-color:skyblue;
   margin-left: -50px;
 }
 .Twitter img {
     margin-left: 20px;
-    background-color: #4CAF50;
 }
 
 .Google img{
     margin-left: 20px;
-    background-color: #2196F3;
 }
 
 .Instagram img{
     margin-left: 20px;
-    background-color: #f44336;
 }
 
 .Youtube img {
     margin-left: 20px;
-    background-color: #555
+}
+
+
+
+@media all and (max-width:100px){
+header,body, footer,
+.menubar ul{flex-direction: column;}
 }

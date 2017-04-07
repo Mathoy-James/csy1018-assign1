@@ -1,5 +1,6 @@
 body{
   height:1400px;
+  font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -28,6 +29,7 @@ header{
   flex-direction:row; justify-content: space-around;
   margin-left:auto;
   margin-right: auto;
+  opacity:0.7;
   z-index: 9;
   position: relative;
   margin-left:auto;
@@ -41,6 +43,9 @@ header{
   border-radius:50px;
 }
 
+.cvcontent > img{
+  margin-top: 1%;
+}
 .education{
   width: 49.5%;
   height: 550px;
@@ -109,7 +114,8 @@ flex-direction:column;
   display:flex;
   text-align: center;
   display:flex;
-  flex-direction:column; justify-content: space-around;
+  flex-direction:column;
+  justify-content: space-around;
 }
 
 
@@ -121,7 +127,6 @@ flex-direction:column;
   border-radius: 50%;
   margin-left:auto;
   margin-right: auto;
-
 
 }
 
@@ -135,30 +140,35 @@ flex-direction:column;
   margin-left: auto;
   margin-right: auto;
   margin-top: -6px;
- z-index: 9;
+  z-index: 9;
 }
 .s11 >p, .s21 >p, .s31 >p{
   padding-top: 40px;
 }
-.white{
-  height:28px;width:300px;background-color:black;
+.black{
+  height:25%;width:250%;background-color:black;
   margin-left: -80px;
   margin-top: 10%;
 }
 .html{
-  height:28px;width:80%;background-color:grey;
+  height:100%;width:70%;background-color:grey;
   z-index: 11;
 }
 .java{
-  height:28px;width:20%;background-color:grey;
+  height:100%;width:20%;background-color:grey;
   z-index: 11;
 }
 .python{
-  height:28px;width:30%;background-color:grey;
+  height:100%;width:30%;background-color:grey;
   z-index: 11;
 }
 
 footer{
-top: -650px;
-margin-bottom: 50px;
+
+bottom: 103%;
+}
+
+@media all and (max-width:1000px){
+header,body,section, footer,
+.navigation ul{flex-direction: row;}
 }
