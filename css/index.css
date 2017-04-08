@@ -17,9 +17,9 @@ body{
     animation-duration:1s;
     animation-iteration-count: infinite;
 }
-
+/*use of key frame*/
 @keyframes logo{
-           o%{background: violet;}
+           0%{background: violet;}
            25%{background: red;}
            50%{background: blue;}
            75%{background: green;}
@@ -94,7 +94,7 @@ header{
   border: none;
   outline: none;
   background-color:white;
-  color: white;
+  color: #fff;
   cursor: pointer;
   overflow: hidden;
   opacity:0.2;
@@ -168,7 +168,6 @@ color:white;
 
 .navigation > ul > li > a > img{
     height:50px;
-    weight:50px;
     padding: 50%;
     padding-left: 10%;
 }
@@ -252,6 +251,8 @@ background: radial-gradient(circle at 100px 100px, skyblue, #000);
   justify-content: space-around;
 
 }
+
+/*this is the code collected from w3school*/
 .btn > form > button{
   height: 30px;
   width: 120px;
@@ -295,7 +296,7 @@ background: radial-gradient(circle at 100px 100px, skyblue, #000);
   opacity: 1;
   right: 0;
 }
-
+/*css for footer*/
 footer{
   position:relative;
   opacity:0.7;
@@ -331,7 +332,6 @@ footer{
 
 .socialsites img {
     height:50px;
-    weight:50px;
     font-size: 20px;
     color: white;
 
@@ -361,7 +361,7 @@ footer{
 }
 
 
-
+/*use of media query*/
 @media all and (max-width:500px){
 header,body,footer,footer,
 .navigation{
@@ -371,7 +371,6 @@ top:20px;
 
 .navigation > ul > li > a >img{
   height:20px;
-  weight:20px;
   margin-left:-10%;
 }
 
@@ -382,7 +381,6 @@ top:20px;
 }
 .socialsites img {
     height:20px;
-    weight:20px;
     margin-left:-500%;
 }
 

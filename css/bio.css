@@ -56,7 +56,7 @@ footer{
 
 
 @media all and (max-width:1000px){
-
+header,body,section, footer,
 .biocontent1, .biocontent2 {
   overflow:scroll;
 }
